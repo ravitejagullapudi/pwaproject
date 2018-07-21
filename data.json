@@ -1,0 +1,59 @@
+{
+
+	"details": {
+		"image": "ravi.png",
+		"name": "RAVITEJA",
+		"phoneno": "9074493852",
+		"email": "ravitejagullapudi@gmail.com",
+		"college": "SRKR ENGINEERING COLLEGE",
+		"regno": "160105060",
+		"branch": "IT-A"
+	},
+
+	"career": {
+		"carobj": "Career Objective",
+		"info": "To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization."
+	},
+
+	"education": [{
+			"degree": "B-tech",
+			"institute": "SRKR ENGINEERING COLLEGE",
+			"Batch": ["2016-2020,90%"]
+		},
+		{
+			"degree": "Intermediate",
+			"institute": "SRI CHAITANYA JUNIOR COLLEGE",
+			"Batch": ["2014-2016,98.3%"]
+		},
+		{
+			"degree": "SSC",
+			"institute": "SRI CHAITANYA TECHNO SCHOOL",
+			"Batch": ["2014,98%"]
+		}
+	],
+  "keyskills": [{
+			"title": "Programming languages",
+      "info": ["C","C++","JAVA","PYTHON","HTML","CSS"]
+		},
+    {
+			"title": "Operating Systems:",
+			"info": ["Windows","Linux","MAC","UBUNTU","MS.DOS"]
+		},
+    {
+			"title": "Databases:",
+			"info": ["SQL","MYSQL","SQLLITE","ORACLE"]
+		}
+],
+
+"achievements":[{
+  "title":"Technical Achievements:",
+  "info":["Best Coder,Web Developmer"]
+  },
+  {
+    "title":"Activities:",
+    "info":["Chess, Champion,Shuttle Champion"]
+  }
+
+]
+
+}

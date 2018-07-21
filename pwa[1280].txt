@@ -1,0 +1,43 @@
+PROGRESSIVE WEB APPS
+
+
+# it is fast,integrated,reliable and engaging
+# it is also available offline by service worker
+# it is light weight is that is it works with 2g network
+# it is also used to send push notofications
+# it is developed by google
+# It is a approach or a development methodology
+#  it can be developed by HTML,CSS,JS
+ex:AliExpress(PWA)
+	It is 2 times faster
+	74% increase
+	82% more
+   Konga.com
+	92% less data for initial data
+	82% less data for first transaction
+   flipkart.com
+Core Components of PWA:
+
+1.App Manifest
+2.Service worker
+3.App shell
+4.Content
+
+Crazy for PWA:
+
+1.Zero-Install
+2.Update-on-use
+3.No App store mediation, low friction
+4.low costs
+5.Os indepandant
+6.Lightweght and fast
+7.Works Offline
+
+
+
+
+
+Commands:
+	 git clone https://github.com/ravitejagullapudi/pwaproject.git
+
+	
