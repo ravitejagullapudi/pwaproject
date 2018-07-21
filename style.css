@@ -9,13 +9,13 @@
   text-align: center;
 }
 
+
 td{
   word-break: break-all;
 }
-
 .child1{
   background-color: #fff;
-  border-radius: 10%;
+  border-radius:10%;
   padding: 3%;
   margin: 3%;
   width: 20%;
@@ -48,6 +48,10 @@ img{
   .parent{
   background-color: orange;
   border: 5px solid purple;
+  }
+
+  td{
+    word-break: break-all;
   }
 .parent{
   display: flex;
@@ -95,6 +99,9 @@ img{
   flex-direction: row;
   }
 
+  td{
+    word-break: break-all;
+  }
   .child1{
     background-color: #fff;
     border-radius: 10%;
@@ -134,6 +141,10 @@ img{
   .parent{
     display: flex;
     flex-direction: row;
+    }
+
+    td{
+      word-break: break-all;
     }
   .child1{
     background-color: silver;
