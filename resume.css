@@ -1,0 +1,312 @@
+.parent {
+  display: flex;
+  width: 100%;
+  border: 2px solid lime;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.left{
+  border:2px solid teal;
+  width:20%;
+  padding: 2%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  border-radius: 6%;
+}
+
+.right{
+  border:2px solid maroon;
+  width:70%;
+  padding: 1%;
+  margin-top: 2%;
+  margin-right:2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  border-radius: 6%;
+}
+
+td:hover{
+  background-color: grey;
+}
+td{
+  word-break: break-all;
+}
+img{
+  border-radius: 50%;
+  border:2px solid blue;
+  display: block;
+  width: 80%;
+  margin-left: 2%;
+}
+hr{
+  background-color: red;
+}
+#co{
+  color: blue;
+}
+#para,in{
+  font-size: 20px;
+  color: skyblue;
+}
+#deg{
+  color:brown;
+}
+li{
+  color:Blueviolet;
+  font-size: 20px;
+}
+#in{
+  color:coral;
+}
+#ssc{
+  color:magenta;
+  font-size: 20px;
+}
+
+table{
+  border: 2px solid grey ;
+  border-collapse:collapse;
+
+}
+
+#ach{
+  color: teal;
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width:480px)
+{
+  .parent {
+    display: flex;
+    width: 100%;
+    border: 2px solid lime;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  td{
+    word-break: break-all;
+  }
+
+  .left{
+    border:2px solid teal;
+    width:80%;
+    padding: 4%;
+    margin-top: 3%;
+    margin-left:4%;
+    text-align: center;
+    border-radius: 6%;
+  }
+
+  .right{
+    border:2px solid maroon;
+    width:80%;
+    padding: 4%;
+    margin-left:4%;
+    border-radius: 6%;
+  }
+
+  img{
+    border-radius: 50%;
+    border:2px solid blue;
+    display: block;
+    width: 80%;
+    margin-left: 2%;
+  }
+  hr{
+    background-color: red;
+  }
+  #co{
+    color: blue;
+  }
+  #para,in{
+    font-size: 20px;
+    color: skyblue;
+  }
+  #deg{
+    color:brown;
+  }
+  li{
+    color:Blueviolet;
+    font-size: 20px;
+  }
+  #in{
+    color:coral;
+  }
+  #ssc{
+    color:magenta;
+    font-size: 20px;
+  }
+
+  table{
+    border: 2px solid grey ;
+    border-collapse:collapse;
+
+  }
+
+  #ach{
+    color: teal;
+    font-size: 20px;
+  }
+}
+
+
+@media only screen and (min-width:481px) and (max-width:768px)
+{
+  .parent {
+    display: flex;
+    width: 100%;
+    border: 2px solid lime;
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  td{
+    word-break: break-all;
+  }
+  .left{
+    border:2px solid teal;
+    width:50%;
+    background: #ccffcc;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+    border-radius: 6%;
+  }
+
+  .right{
+    border:2px solid maroon;
+    width:50%;
+    background: #ccffcc;
+    padding: 1%;
+    margin-top: 2%;
+    margin-right:2%;
+    border-radius: 6%;
+  }
+
+  img{
+    border-radius: 50%;
+    border:2px solid blue;
+    display: block;
+    width: 80%;
+    margin-left: 2%;
+  }
+  hr{
+    background-color: red;
+  }
+  #co{
+    color: blue;
+  }
+  #para,in{
+    font-size: 20px;
+    color: skyblue;
+  }
+  #deg{
+    color:brown;
+  }
+  li{
+    color:Blueviolet;
+    font-size: 20px;
+  }
+  #in{
+    color:coral;
+  }
+  #ssc{
+    color:magenta;
+    font-size: 20px;
+  }
+
+  table{
+    border: 2px solid grey ;
+    border-collapse:collapse;
+
+  }
+
+  #ach{
+    color: teal;
+    font-size: 20px;
+  }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px)
+{
+  .parent {
+    display: flex;
+    width: 100%;
+    border: 2px solid lime;
+    flex-direction: row;
+    overflow: hidden;
+    border-radius: 6%;
+  }
+
+  td{
+    word-break: break-all;
+  }
+
+  .left{
+    border:2px solid teal;
+    width:50%;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+    border-radius: 6%;
+  }
+
+  .right{
+    border:2px solid maroon;
+    width:50%;
+    padding: 1%;
+    margin-top: 2%;
+    margin-right:2%;
+    border-radius: 6%;
+  }
+
+  img{
+    border-radius: 50%;
+    border:2px solid blue;
+    display: block;
+    width: 80%;
+    margin-left: 2%;
+  }
+  hr{
+    background-color: red;
+  }
+  #co{
+    color: blue;
+  }
+  #para,in{
+    font-size: 20px;
+    color: skyblue;
+  }
+  #deg{
+    color:brown;
+  }
+  li{
+    color:Blueviolet;
+    font-size: 20px;
+  }
+  #in{
+    color:coral;
+  }
+  #ssc{
+    color:magenta;
+    font-size: 20px;
+  }
+
+  table{
+    border: 2px solid grey ;
+    border-collapse:collapse;
+
+  }
+
+  #ach{
+    color: teal;
+    font-size: 20px;
+  }
+
+}

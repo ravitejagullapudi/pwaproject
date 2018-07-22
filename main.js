@@ -5,7 +5,7 @@
 3: processing request
 4: request finished and response is ready*/
 
-function Loadjson(file,callback) {
+/*function Loadjson(file,callback) {
   var x= new XMLHttpRequest();
   //The XMLHttpRequest object can be used to exchange data with a web server
   // behind the scenes.
@@ -24,6 +24,7 @@ function Loadjson(file,callback) {
 }
 
 //json is in text format so function(text)
+
 Loadjson("data.json", function(text){
   var data =JSON.parse(text);//JavaScript has a built in function to convert a string, written in JSON format, into native JavaScript objects.
   console.log(data);//print in console browser
@@ -34,6 +35,37 @@ Loadjson("data.json", function(text){
   skillset(data.keyskills);
   achievements(data.achievements);
 })
+
+
+*/
+
+function loadjson(file){
+  return new Promise((resolve,reject)=>{
+    return fetch(file).then (response=>{
+      if (response.ok) {
+        resolve(response.json());
+      }
+      else {
+        reject(new Error('error'));
+      }
+    })
+  })
+}
+
+var file =loadjson("data.json");
+file.then(data=>{
+  console.log(data);
+  basics(data.details);//sending data from json to function basics
+  career(data.career);
+  edudetails(data.education);
+  skillset(data.keyskills);
+  achievements(data.achievements);
+
+})
+
+
+
+
 
 var child1=document.querySelector(".child1");
 var child2=document.querySelector(".child2");
@@ -163,4 +195,8 @@ function achievements(ach){
       child2.appendChild(ul);
 
 }
+}
+
+function openpage(){
+  window.open("resume.html","_self","true");
 }
